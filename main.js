@@ -15,7 +15,7 @@ const put = prompt(
 if (put === '追加') {
   const task = prompt('タスクを入力してください');
   todos.push(task);
-  const cmp = alert('新しいタスクを追加しました');
+  alert('新しいタスクを追加しました');
 
   charts.forEach((chart) => console.log(chart));
   todos.forEach((value, index) => console.log(`${index}: ${value}`));
@@ -24,7 +24,7 @@ if (put === '追加') {
     if (check === true) {
       retask = prompt('タスクを入力してください');
       todos.push(retask);
-      const cmpp = alert('新しいタスクを追加しました');
+      alert('新しいタスクを追加しました');
 
       charts.forEach((chart) => console.log(chart));
       todos.forEach((value, index) => console.log(`${index}: ${value}`));
